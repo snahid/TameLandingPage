@@ -18,40 +18,38 @@ body {
 
   .container {
     .row {
-
       .col-md-8 {
         .left-side {
-          padding-bottom: 30px;
+          // padding-bottom: 10px;
 
-          @media(max-width: 375px) {
+          @media (max-width: 375px) {
             padding-bottom: 10px;
           }
 
           .top {
-            margin-bottom: 180px;
+            margin-bottom: 50px;
 
-
-            @media(max-width: 1199px) {
-              margin-bottom: 150px;
+            @media (max-width: 1199px) {
+              // margin-bottom: 150px;
             }
 
-            @media(max-width: 991px) {
-              margin-bottom: 120px;
+            @media (max-width: 991px) {
+              // margin-bottom: 120px;
             }
 
-            @media(max-width: 767px) {
+            @media (max-width: 767px) {
               text-align: center;
               margin-bottom: 80px;
             }
 
-            @media(max-width: 375px) {
-              margin-bottom: 50px;
+            @media (max-width: 375px) {
+              // margin-bottom: 50px;
             }
 
             img {
               padding-top: 30px;
 
-              @media(max-width: 767px) {
+              @media (max-width: 767px) {
                 width: 100px;
               }
             }
@@ -62,32 +60,31 @@ body {
               color: $white;
               font-size: 70px;
               font-weight: 700;
-              margin-bottom: 50px;
+              margin-bottom: 30px;
               text-transform: uppercase;
 
-              @media(max-width: 1199px) {
+              @media (max-width: 1199px) {
                 font-size: 60px;
-                margin-bottom: 35px;
+                margin-bottom: 0px;
               }
 
-              @media(max-width: 991px) {
+              @media (max-width: 991px) {
                 font-size: 40px;
-                margin-bottom: 10px;
+                // margin-bottom: 10px;
               }
 
-              @media(max-width: 767px) {
+              @media (max-width: 767px) {
                 text-align: center;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
               }
 
-              @media(max-width: 430px) {
-                font-size: 30px
+              @media (max-width: 430px) {
+                font-size: 30px;
               }
 
-              @media(max-width: 330px) {
+              @media (max-width: 330px) {
                 font-size: 29px;
               }
-
             }
 
             p {
@@ -96,21 +93,23 @@ body {
               font-weight: 300;
               margin: 0;
 
-              @media(max-width: 1199px) {
+              @media (max-width: 1199px) {
                 font-size: 40px;
               }
 
-              @media(max-width: 991px) {
+              @media (max-width: 991px) {
                 font-size: 25px;
-                margin-bottom: 10px;
+                // margin-bottom: 10px;
               }
 
-              @media(max-width: 767px) {
+              @media (max-width: 767px) {
                 text-align: center;
+                margin-bottom: 20px;
               }
 
-              @media(max-width: 430px) {
-                font-size: 22px
+              @media (max-width: 430px) {
+                font-size: 22px;
+                margin-bottom: 0px;
               }
 
               span {
@@ -121,14 +120,14 @@ body {
             .playstore-link {
               margin-bottom: 40px;
 
-              @media(max-width: 991px) {
+              @media (max-width: 991px) {
                 margin-bottom: 30px;
               }
 
               ul {
                 padding: 0;
 
-                @media(max-width: 767px) {
+                @media (max-width: 767px) {
                   text-align: center;
                 }
 
@@ -136,21 +135,19 @@ body {
                   list-style-type: none;
                   display: inline-block;
 
-                  @media(max-width: 375px) {
+                  @media (max-width: 375px) {
                     margin-bottom: 20px;
                   }
 
                   a {
-
-
                     img {
                       width: 100%;
 
-                      @media(max-width: 1199px) {
+                      @media (max-width: 1199px) {
                         width: 250px;
                       }
 
-                      @media(max-width: 991px) {
+                      @media (max-width: 991px) {
                         width: 170px;
                       }
                     }
@@ -160,11 +157,11 @@ body {
                 .mymargin {
                   margin-right: 50px;
 
-                  @media(max-width: 991px) {
+                  @media (max-width: 991px) {
                     margin-right: 20px;
                   }
 
-                  @media(max-width:400px) {
+                  @media (max-width: 400px) {
                     margin-right: 0px;
                   }
                 }
@@ -176,7 +173,7 @@ body {
             ul {
               padding: 0;
 
-              @media(max-width: 767px) {
+              @media (max-width: 767px) {
                 text-align: center;
               }
 
@@ -188,7 +185,7 @@ body {
                   text-align: center;
                   padding-right: 30px;
 
-                  @media(max-width: 375px) {
+                  @media (max-width: 375px) {
                     padding-right: 10px;
                   }
 
@@ -208,10 +205,9 @@ body {
 
       .col-md-4 {
         .right-side {
+          padding-bottom: 0px;
 
-          padding-bottom: 30px;
-
-          @media(max-width: 767px) {
+          @media (max-width: 767px) {
             display: none;
             padding-bottom: 0px;
           }
@@ -221,22 +217,17 @@ body {
             // left: -300px;
             // width: 1440px;
             width: 100%;
-            padding-top: 170px;
-
-            @media(max-width: 767px) {
-              display: none;
+            padding-top: 20px;
+            @media (max-width: 991px) {
+              padding-top: 50px;
             }
 
-
-
-
-
-
-
+            @media (max-width: 767px) {
+              display: none;
+            }
           }
         }
       }
     }
   }
-
 }
